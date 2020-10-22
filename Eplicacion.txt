@@ -1,0 +1,108 @@
+Curso JavaScript JUNIOR
+
+Capitulo 1
+
+0) Introducción - ¿Qué es JavaScript?
+	- Lenguaje de Programación
+	- Interpretado: no necesita de un compilador, se ejecuta en el navegador
+	- Orientado a objetos: Clases, herencias y polimorfismo
+	- Imperativo: Se ejecuta de manera secuencial 
+	- Case Sensitive: sensible a mayusculas y minusculas
+	- Basado en prototipos, instancias y clasless
+	- Tipado debil: Las variables cambian a traves del tiempo (Tipo de datos)
+	- Lenguaje dinámico: La variable no se ajusta el dato, el dato se ajusta 
+	  a la variable se adapta al texto
+
+	- ECMASCRIPT (5.1 6 7 8 9 10) ES.NEXT Ecma escript proximas
+
+1) Editor de Texto
+	- Personalizar el editor de texto
+
+2) ¿Para que se usa?
+	- Dinamismo de los Sitios WEB
+	- Servidor en Node.js
+	- Tecnologias frontend como Angular, React o Vue.js
+    Otros Usos comunes:
+	- Inteligencia artificial
+	- Placas electrónicas 
+	- Aplicaciones moviles
+	- Aplicaciones de escritorio
+	- Etc...
+
+3) Enlazar JavaScript
+- En linea
+	- Como contenido de la etiqueta <Script>
+	- Contenido externo de un archivo con formato .js
+	- Como un Require
+
+4) Variables
+	- Concepto
+    - Ejemplo
+    - Tipos de datos: String, number, Boolean, symbol
+	- Casos especiales de datos: Undefined, Null, nan
+	- Scope: Espacio de acción de la variable
+	- Hoisting: Las variable y funciones son asignadas en memoria durante la 
+	  fase de compilación, pero quedan excatamente en dónde las has escrito en 
+	  el código.
+	- Tipos de variables (Let, Var y Const)
+	- Crear multiples variables Let nombre1, nombre2, nombre3; 
+	- Puebas con Promt
+	- Null: inicializada declara una variable vacia
+	- Undefined: la variable no està definida por el momento
+	- Nan: no es un numero (operaciones erroneas)
+	- Prompt: devuelve un valor que se solicita al usuario	
+
+5) Operadores basicos
+	- Operadores areitméticos toman valores neméricos (ya sean literales o variables) 
+		como sus operandos y retornan un valor numérico único. 
+		construidos en base de Otros.
+	- Operadores de asignación: asigna un valor al operando de la izquierda
+		basado en el valor operando de la derecha. ejemplo; x=y, x+=y
+	
+6) Concatenación
+	- Su función es unir strings, se utiliza el signo +
+	- para los numeros es posible forzar un string ej: (""+5+4)=54
+	- función concat (Método) ej: (numero.concat(numero2)), pero es necesario
+		tener al menos un string. 
+	- Con backtiks y la variable entre $()
+
+7) Backtikcs (Bloquote o acento grave) y escape
+	Permite utilizar HTML dentro de java
+
+8) Operadores Intermedios
+	- Operadores logicos; and, or y not
+	- Operadores de comparación: igual, mayor, diferente, etc...
+	 comparan dos valores y devuelve un valor Boolean
+
+9) Camel case 
+	- Definición: define metodos escribiendo de la forma estoEsUnMetodo
+ 	- Usos
+	- Ejemplos
+
+10) Condicionales
+	- Definición
+	- if
+	- else if
+	- else
+
+CAPITULO 2
+
+Los Arrays son objetos ordenados. Contenedor de diferentes tipos de elementos 
+que pueden ser de diferentes ripos de datos. 
+
+11) Estructura de Arrays
+	- Se declaran con corchetes
+
+12) Se pueden crear objetos con los arrays declarandoles nombres a las variables
+	y asociandolo como si fuera un objeto en java. 
+
+13) ciclos: (Utilizando un if se puede hacer un break en cuanquier ciclo)
+		- while: ejecuta el codigo mientras se cumple una condición
+		- do while: ejecuta el codigo y luego pregunta por la acción
+		- for: ciclo definido
+
+	Es posible utilizar una etiqueta label, en los ciclos
+
+14) Funciones:
+	Las funciones son una porción de código que puede ser reutilizado varias veces
+	- 
